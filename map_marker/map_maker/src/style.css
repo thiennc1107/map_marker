@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#map {
+  width: 80%;
+  height: 100vh;
+}
+
+.option-container {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+}
+
+.option-container * {
+  height: 50px;
+  width: 150px;
+}
+
+.coordinate {
+  position: absolute;
+  bottom: 10px;
+  right: 50%;
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #000000;
+  color: #fff;
+  border: 1px solid red;
+  border-radius: 0px;
+}
